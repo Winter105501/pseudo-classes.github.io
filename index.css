@@ -1,0 +1,168 @@
+body{
+
+margin-top: 0;
+margin-left: 0;
+margin-right: 0;
+border: solid;
+}
+
+
+
+#titulo{
+    text-align: center;
+    border: solid black;
+}
+
+#vazio{
+    border: solid;
+}
+
+#ul_ex01{
+    border: solid;
+}
+
+/* Inicio dos P */
+
+p:empty{
+    color: blueviolet;
+}
+
+p:first-child {
+color: aqua;
+
+}
+
+p:first-of-type{
+
+background-color: brown;
+}
+
+p:last-child{
+color: lawngreen;
+}
+
+p:last-of-type{
+    background-color: violet;
+}
+
+:not(p){
+
+    color: cadetblue;
+}
+
+p:nth-child(2){
+border: solid seagreen;
+   font-size: 30px;
+}
+
+p:nth-last-child(2){
+border: solid darkred;
+    width: 100px;
+}
+
+p:nth-last-of-type(2){
+border: solid greenyellow;
+}
+
+p:nth-of-type(2){
+    border: solid red;
+}
+
+p:only-of-type{
+height: 50px;
+}
+
+p:only-child{
+    color: black;
+}
+
+p::after{
+    color: gold;
+}
+
+p::before{
+font-size: 50px;
+}
+
+p::first-letter{
+    color: aqua;
+}
+
+p::first-line{
+    background-color: yellow;
+}
+
+::marker{
+    border: solid;
+}
+
+p::selection{
+
+    background-color: tomato;
+}
+
+/* Fim dos P */
+
+
+/* Inicio dos Input */
+
+input:checked{
+width: 170px;
+}
+
+input:disabled{
+    background-color: teal;
+}
+
+input:enabled{
+color: brown;
+}
+
+input:focus{
+font-size: large;
+}
+
+input:in-range{
+width: 175px;
+}
+
+input:invalid{
+    color: red;
+}
+
+input:optional{
+    background-color: yellow;
+}
+
+input:out-of-range{
+    width: 50px;
+}
+
+input:read-only{
+    color: aqua;
+}
+
+input:read-write{
+
+    background-color: springgreen;
+}
+
+input:required{
+    text-align: center;
+}
+
+a:active{
+    font-size: 80px;
+}
+
+a:hover{
+    color:chocolate;
+}
+
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: blueviolet;
+}
